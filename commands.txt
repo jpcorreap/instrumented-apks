@@ -1,0 +1,17 @@
+git clone https://github.com/jpcorreap/instrumented-apks.git
+
+cmd:
+set PATH=%PATH%;C:\Users\<>\AppData\Local\Android\Sdk\platform-tools;C:\Users\<>\AppData\Local\Android\Sdk\build-tools\35.0.0
+for %f in (C:\your_app_path\*.apk) do adb install "%f"
+
+PowerShell:
+$env:PATH += ";C:\Users\<>\AppData\Local\Android\Sdk\platform-tools;C:\Users\<>\AppData\Local\Android\Sdk\build-tools\35.0.0"  
+Get-ChildItem "./*.apk" | ForEach-Object { adb install "$($_.FullName)" }
+adb logcat | Select-String "ANDROLOG" | Out-File -FilePath logs.txt
+
+ADB:
+adb devices
+adb emu avd snapshot load android-apps-study
+C:\Users\<>\.android\avd
+
+Pixel_5_API_30.avd
