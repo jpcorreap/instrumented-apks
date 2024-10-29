@@ -1,0 +1,84 @@
+State 1:
+  Activity Name: com.maltaisn.notes.sync/com.maltaisn.notes.ui.main.MainActivity
+
+  Memory: 183684.0
+  CPU: 0.0
+  Domain Model: [{"field":"item_search","name":"com.maltaisn.notes.sync:id\/item_search","type":"BUTTON"},{"field":"item_layout","name":"com.maltaisn.notes.sync:id\/item_layout","type":"BUTTON"},{"field":"item_sort","name":"com.maltaisn.notes.sync:id\/item_sort","type":"BUTTON"}]
+
+State 2:
+  Activity Name: com.maltaisn.notes.sync/com.maltaisn.notes.ui.main.MainActivity
+
+  Memory: 198000.0
+  CPU: 0.0
+  Domain Model: [{"field":"item_type","name":"com.maltaisn.notes.sync:id\/item_type","type":"BUTTON"},{"field":"item_move","name":"com.maltaisn.notes.sync:id\/item_move","type":"BUTTON"},{"field":"title_edt","name":"com.maltaisn.notes.sync:id\/title_edt","type":"STRING"},{"field":"content_edt","name":"com.maltaisn.notes.sync:id\/content_edt","type":"STRING"}]
+
+State 3:
+  Activity Name: PopupWindow:70d4efc
+
+  Memory: 202276.0
+  CPU: 30.0
+  Domain Model: []
+
+State 4:
+  Activity Name: com.maltaisn.notes.sync/com.maltaisn.notes.ui.main.MainActivity
+
+  Memory: 210652.0
+  CPU: 6.6
+  Domain Model: [{"field":"item_search","name":"com.maltaisn.notes.sync:id\/item_search","type":"BUTTON"},{"field":"item_layout","name":"com.maltaisn.notes.sync:id\/item_layout","type":"BUTTON"},{"field":"item_sort","name":"com.maltaisn.notes.sync:id\/item_sort","type":"BUTTON"},{"field":"snackbar_action","name":"com.maltaisn.notes.sync:id\/snackbar_action","type":"BUTTON"}]
+
+State 5:
+  Activity Name: com.maltaisn.notes.sync/com.maltaisn.notes.ui.main.MainActivity
+
+  Memory: 213848.0
+  CPU: 18.0
+  Domain Model: [{"field":"sort_field_radio_group","name":"com.maltaisn.notes.sync:id\/sort_field_radio_group","type":"LIST"},{"field":"sort_direction_radio_group","name":"com.maltaisn.notes.sync:id\/sort_direction_radio_group","type":"LIST"},{"field":"button2","name":"android:id\/button2","type":"BUTTON"},{"field":"button1","name":"android:id\/button1","type":"BUTTON"}]
+
+State 6:
+  Activity Name: com.maltaisn.notes.sync/com.maltaisn.notes.ui.main.MainActivity
+
+  Memory: 223176.0
+  CPU: 8.6
+  Domain Model: [{"field":"item_search","name":"com.maltaisn.notes.sync:id\/item_search","type":"BUTTON"},{"field":"item_layout","name":"com.maltaisn.notes.sync:id\/item_layout","type":"BUTTON"},{"field":"item_sort","name":"com.maltaisn.notes.sync:id\/item_sort","type":"BUTTON"}]
+
+State 7:
+  Activity Name: com.maltaisn.notes.sync/com.maltaisn.notes.ui.main.MainActivity
+
+  Memory: 230880.0
+  CPU: 10.0
+  Domain Model: []
+
+State 8:
+  Activity Name: PopupWindow:1f656ff
+
+  Memory: 230948.0
+  CPU: 15.0
+  Domain Model: []
+
+State 9:
+  Activity Name: PopupWindow:8716139
+
+  Memory: 231328.0
+  CPU: 2.1
+  Domain Model: []
+
+State 10:
+  Activity Name: com.maltaisn.notes.sync/com.maltaisn.notes.ui.main.MainActivity
+
+  Memory: 233132.0
+  CPU: 2.9
+  Domain Model: []
+
+State 11:
+  Activity Name: PopupWindow:3bea5b3
+
+  Memory: 237088.0
+  CPU: 7.4
+  Domain Model: []
+
+State 12:
+  Activity Name: PopupWindow:1036d83
+
+  Memory: 237764.0
+  CPU: 2.7
+  Domain Model: []
+

@@ -1,0 +1,40 @@
+State 1:
+  Activity Name: com.evancharlton.mileage/com.evancharlton.mileage.Mileage
+  Battery: 100
+  WiFi Status: true
+  Memory: 116028.0
+  CPU: 0.0
+  Airplane Mode: false
+  Screenshot: ./mileages/1.png
+  Domain Model: [{"field":"price","name":"com.evancharlton.mileage:id\/price","type":"STRING"},{"field":"volume","name":"com.evancharlton.mileage:id\/volume","type":"STRING"},{"field":"odometer","name":"com.evancharlton.mileage:id\/odometer","type":"STRING"},{"field":"date","name":"com.evancharlton.mileage:id\/date","type":"BUTTON"},{"field":"partial","name":"com.evancharlton.mileage:id\/partial","type":"BOOLEAN"},{"field":"BLANK","name":"","type":"STRING"},{"field":"save_btn","name":"com.evancharlton.mileage:id\/save_btn","type":"BUTTON"}]
+
+State 2:
+  Activity Name: com.evancharlton.mileage/com.evancharlton.mileage.FillupActivity
+  Battery: 100
+  WiFi Status: true
+  Memory: 127996.0
+  CPU: 0.0
+  Airplane Mode: false
+  Screenshot: ./mileages/2.png
+  Domain Model: [{"field":"numberpicker_input","name":"android:id\/numberpicker_input","type":"STRING"},{"field":"numberpicker_input","name":"android:id\/numberpicker_input","type":"STRING"},{"field":"numberpicker_input","name":"android:id\/numberpicker_input","type":"STRING"},{"field":"button1","name":"android:id\/button1","type":"BUTTON"},{"field":"button2","name":"android:id\/button2","type":"BUTTON"}]
+
+State 3:
+  Activity Name: com.evancharlton.mileage/com.evancharlton.mileage.Mileage
+  Battery: 100
+  WiFi Status: true
+  Memory: 132568.0
+  CPU: 18.0
+  Airplane Mode: false
+  Screenshot: ./mileages/3.png
+  Domain Model: []
+
+State 4:
+  Activity Name: com.evancharlton.mileage/com.evancharlton.mileage.Mileage 
+  Battery: 100
+  WiFi Status: true
+  Memory: 135356.0
+  CPU: 7.3
+  Airplane Mode: false
+  Screenshot: ./mileages/4.png
+  Domain Model: []
+

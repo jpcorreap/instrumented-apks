@@ -1,0 +1,250 @@
+Transition 1:
+  From State: 0
+  To State: 1
+  Type: FIRST_INTERACTION
+  Leaves App Core: false
+
+Transition 2:
+  From State: 1
+  To State: 2
+  Type: GUI_CLICK_BUTTON
+  Leaves App Core: false
+  Origin Node:
+    Resource ID: io.github.subhamtyagi.quickcalculation:id/btn_start
+    Name: node
+    Text: Starts Now!
+    XPath: 0_FrameLayout|0_LinearLayout|0_FrameLayout|0_ViewGroup|2_FrameLayout|0_ViewGroup|13_Button/io.github.subhamtyagi.quickcalculation:id/btn_start
+    Bounds: [55,1480][1025,1612]
+
+Transition 3:
+  From State: 2
+  To State: 3
+  Type: GUI_CLICK_BUTTON
+  Leaves App Core: false
+  Origin Node:
+    Resource ID: io.github.subhamtyagi.quickcalculation:id/btn_submit
+    Name: node
+    Text: Submit
+    XPath: 0_FrameLayout|0_LinearLayout|0_FrameLayout|0_ViewGroup|2_FrameLayout|0_ViewGroup|5_Button/io.github.subhamtyagi.quickcalculation:id/btn_submit
+    Bounds: [317,1798][764,1973]
+
+Transition 4:
+  From State: 3
+  To State: 3
+  Type: GUI_CLICK_BUTTON
+  Leaves App Core: false
+  Origin Node:
+    Resource ID: io.github.subhamtyagi.quickcalculation:id/button3
+    Name: node
+    Text: 107
+    XPath: 0_FrameLayout|0_LinearLayout|0_FrameLayout|0_ViewGroup|2_FrameLayout|0_ViewGroup|4_ViewGroup|3_Button/io.github.subhamtyagi.quickcalculation:id/button3
+    Bounds: [554,991][1052,1214]
+
+Transition 5:
+  From State: 3
+  To State: 3
+  Type: GUI_CLICK_BUTTON
+  Leaves App Core: false
+  Origin Node:
+    Resource ID: io.github.subhamtyagi.quickcalculation:id/button2
+    Name: node
+    Text: 97
+    XPath: 0_FrameLayout|0_LinearLayout|0_FrameLayout|0_ViewGroup|2_FrameLayout|0_ViewGroup|4_ViewGroup|2_Button/io.github.subhamtyagi.quickcalculation:id/button2
+    Bounds: [28,991][526,1214]
+
+Transition 6:
+  From State: 3
+  To State: 3
+  Type: GUI_CLICK_BUTTON
+  Leaves App Core: false
+  Origin Node:
+    Resource ID: io.github.subhamtyagi.quickcalculation:id/button1
+    Name: node
+    Text: 87
+    XPath: 0_FrameLayout|0_LinearLayout|0_FrameLayout|0_ViewGroup|2_FrameLayout|0_ViewGroup|4_ViewGroup|1_Button/io.github.subhamtyagi.quickcalculation:id/button1
+    Bounds: [554,740][1052,963]
+
+Transition 7:
+  From State: 3
+  To State: 3
+  Type: GUI_CLICK_BUTTON
+  Leaves App Core: false
+  Origin Node:
+    Resource ID: io.github.subhamtyagi.quickcalculation:id/button0
+    Name: node
+    Text: 77
+    XPath: 0_FrameLayout|0_LinearLayout|0_FrameLayout|0_ViewGroup|2_FrameLayout|0_ViewGroup|4_ViewGroup|0_Button/io.github.subhamtyagi.quickcalculation:id/button0
+    Bounds: [28,740][526,963]
+
+Transition 8:
+  From State: 3
+  To State: 2
+  Type: GUI_CLICK_BUTTON
+  Leaves App Core: false
+  Origin Node:
+    Resource ID: io.github.subhamtyagi.quickcalculation:id/btn_play_again
+    Name: node
+    Text: Play Again
+    XPath: 0_FrameLayout|0_LinearLayout|0_FrameLayout|0_ViewGroup|2_FrameLayout|0_ViewGroup|0_ViewGroup|5_Button/io.github.subhamtyagi.quickcalculation:id/btn_play_again
+    Bounds: [55,1348][1025,1480]
+
+Transition 9:
+  From State: 2
+  To State: 2
+  Type: GUI_CLICK_BUTTON
+  Leaves App Core: false
+  Origin Node:
+    Resource ID: io.github.subhamtyagi.quickcalculation:id/button3
+    Name: node
+    Text: 134
+    XPath: 0_FrameLayout|0_LinearLayout|0_FrameLayout|0_ViewGroup|2_FrameLayout|0_ViewGroup|3_ViewGroup|3_Button/io.github.subhamtyagi.quickcalculation:id/button3
+    Bounds: [554,991][1052,1214]
+
+Transition 10:
+  From State: 2
+  To State: 2
+  Type: GUI_CLICK_BUTTON
+  Leaves App Core: false
+  Origin Node:
+    Resource ID: io.github.subhamtyagi.quickcalculation:id/button2
+    Name: node
+    Text: 114
+    XPath: 0_FrameLayout|0_LinearLayout|0_FrameLayout|0_ViewGroup|2_FrameLayout|0_ViewGroup|3_ViewGroup|2_Button/io.github.subhamtyagi.quickcalculation:id/button2
+    Bounds: [28,991][526,1214]
+
+Transition 11:
+  From State: 2
+  To State: 2
+  Type: GUI_CLICK_BUTTON
+  Leaves App Core: false
+  Origin Node:
+    Resource ID: io.github.subhamtyagi.quickcalculation:id/button1
+    Name: node
+    Text: 104
+    XPath: 0_FrameLayout|0_LinearLayout|0_FrameLayout|0_ViewGroup|2_FrameLayout|0_ViewGroup|3_ViewGroup|1_Button/io.github.subhamtyagi.quickcalculation:id/button1
+    Bounds: [554,740][1052,963]
+
+Transition 12:
+  From State: 2
+  To State: 3
+  Type: GUI_CLICK_BUTTON
+  Leaves App Core: false
+  Origin Node:
+    Resource ID: io.github.subhamtyagi.quickcalculation:id/button0
+    Name: node
+    Text: 124
+    XPath: 0_FrameLayout|0_LinearLayout|0_FrameLayout|0_ViewGroup|2_FrameLayout|0_ViewGroup|3_ViewGroup|0_Button/io.github.subhamtyagi.quickcalculation:id/button0
+    Bounds: [28,740][526,963]
+
+Transition 13:
+  From State: 3
+  To State: 1
+  Type: BUTTON_BACK
+  Leaves App Core: false
+
+Transition 14:
+  From State: 1
+  To State: 1
+  Type: GUI_INPUT_TEXT
+  Leaves App Core: false
+  Input String: 
+  Origin Node:
+    Resource ID: io.github.subhamtyagi.quickcalculation:id/et_range2_upper
+    Name: node
+    Text: 9912
+    XPath: 0_FrameLayout|0_LinearLayout|0_FrameLayout|0_ViewGroup|2_FrameLayout|0_ViewGroup|12_EditText/io.github.subhamtyagi.quickcalculation:id/et_range2_upper
+    Bounds: [802,1252][967,1384]
+
+Transition 15:
+  From State: 1
+  To State: 1
+  Type: GUI_INPUT_TEXT
+  Leaves App Core: false
+  Input String: 
+  Origin Node:
+    Resource ID: io.github.subhamtyagi.quickcalculation:id/et_range2_lower
+    Name: node
+    Text: 1170
+    XPath: 0_FrameLayout|0_LinearLayout|0_FrameLayout|0_ViewGroup|2_FrameLayout|0_ViewGroup|10_EditText/io.github.subhamtyagi.quickcalculation:id/et_range2_lower
+    Bounds: [305,1252][470,1384]
+
+Transition 16:
+  From State: 1
+  To State: 1
+  Type: GUI_INPUT_TEXT
+  Leaves App Core: false
+  Input String: 
+  Origin Node:
+    Resource ID: io.github.subhamtyagi.quickcalculation:id/et_range1_upper
+    Name: node
+    Text: 995
+    XPath: 0_FrameLayout|0_LinearLayout|0_FrameLayout|0_ViewGroup|2_FrameLayout|0_ViewGroup|8_EditText/io.github.subhamtyagi.quickcalculation:id/et_range1_upper
+    Bounds: [802,1065][967,1197]
+
+Transition 17:
+  From State: 1
+  To State: 1
+  Type: GUI_INPUT_TEXT
+  Leaves App Core: false
+  Input String: 
+  Origin Node:
+    Resource ID: io.github.subhamtyagi.quickcalculation:id/et_range1_lower
+    Name: node
+    Text: 1188
+    XPath: 0_FrameLayout|0_LinearLayout|0_FrameLayout|0_ViewGroup|2_FrameLayout|0_ViewGroup|6_EditText/io.github.subhamtyagi.quickcalculation:id/et_range1_lower
+    Bounds: [305,1065][470,1197]
+
+Transition 18:
+  From State: 1
+  To State: 4
+  Type: GUI_CLICK_BUTTON
+  Leaves App Core: false
+  Origin Node:
+    Resource ID: io.github.subhamtyagi.quickcalculation:id/spinner_timer
+    Name: node
+    Text: 
+    XPath: 0_FrameLayout|0_LinearLayout|0_FrameLayout|0_ViewGroup|2_FrameLayout|0_ViewGroup|3_Spinner/io.github.subhamtyagi.quickcalculation:id/spinner_timer
+    Bounds: [55,703][1025,835]
+
+Transition 19:
+  From State: 4
+  To State: 1
+  Type: BUTTON_BACK
+  Leaves App Core: false
+
+Transition 20:
+  From State: 1
+  To State: 5
+  Type: GUI_CLICK_BUTTON
+  Leaves App Core: false
+  Origin Node:
+    Resource ID: io.github.subhamtyagi.quickcalculation:id/spinner_operator
+    Name: node
+    Text: 
+    XPath: 0_FrameLayout|0_LinearLayout|0_FrameLayout|0_ViewGroup|2_FrameLayout|0_ViewGroup|1_Spinner/io.github.subhamtyagi.quickcalculation:id/spinner_operator
+    Bounds: [55,401][1025,533]
+
+Transition 21:
+  From State: 5
+  To State: 1
+  Type: BUTTON_BACK
+  Leaves App Core: false
+
+Transition 22:
+  From State: 1
+  To State: 1
+  Type: GUI_CLICK_BUTTON
+  Leaves App Core: false
+  Origin Node:
+    Resource ID: 
+    Name: node
+    Text: 
+    XPath: 0_FrameLayout|0_LinearLayout|0_FrameLayout|0_ViewGroup|1_FrameLayout|0_ViewGroup|1_LinearLayoutCompat|0_ImageView
+    Bounds: [969,88][1080,220]
+
+Transition 23:
+  From State: 1
+  To State: 1
+  Type: BUTTON_BACK
+  Leaves App Core: false
+

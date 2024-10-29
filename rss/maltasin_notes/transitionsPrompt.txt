@@ -1,0 +1,356 @@
+Transition 1:
+  From State: 0
+  To State: 1
+  Type: FIRST_INTERACTION
+  Leaves App Core: false
+
+Transition 2:
+  From State: 1
+  To State: 2
+  Type: GUI_CLICK_BUTTON
+  Leaves App Core: false
+  Origin Node:
+    Resource ID: com.maltaisn.notes.sync:id/fab
+    Name: node
+    Text: 
+    XPath: 0_FrameLayout|0_LinearLayout|0_FrameLayout|0_FrameLayout|0_FrameLayout|0_DrawerLayout|0_FrameLayout|0_FrameLayout|0_ViewGroup|2_ImageButton/com.maltaisn.notes.sync:id/fab
+    Bounds: [882,2010][1036,2072]
+
+Transition 3:
+  From State: 2
+  To State: 2
+  Type: GUI_INPUT_TEXT
+  Leaves App Core: false
+  Input String: 
+  Origin Node:
+    Resource ID: com.maltaisn.notes.sync:id/content_edt
+    Name: node
+    Text: Omh
+    XPath: 0_FrameLayout|0_LinearLayout|0_FrameLayout|0_FrameLayout|0_FrameLayout|0_DrawerLayout|0_FrameLayout|0_FrameLayout|0_ViewGroup|1_ViewGroup|1_RecyclerView|1_EditText/com.maltaisn.notes.sync:id/content_edt
+    Bounds: [0,461][1080,583]
+
+Transition 4:
+  From State: 2
+  To State: 2
+  Type: GUI_INPUT_TEXT
+  Leaves App Core: false
+  Input String: 
+  Origin Node:
+    Resource ID: com.maltaisn.notes.sync:id/title_edt
+    Name: node
+    Text: Nkc
+    XPath: 0_FrameLayout|0_LinearLayout|0_FrameLayout|0_FrameLayout|0_FrameLayout|0_DrawerLayout|0_FrameLayout|0_FrameLayout|0_ViewGroup|1_ViewGroup|1_RecyclerView|0_EditText/com.maltaisn.notes.sync:id/title_edt
+    Bounds: [0,343][1080,461]
+
+Transition 5:
+  From State: 2
+  To State: 2
+  Type: GUI_CLICK_BUTTON
+  Leaves App Core: false
+  Origin Node:
+    Resource ID: com.maltaisn.notes.sync:id/view_background
+    Name: node
+    Text: 
+    XPath: 0_FrameLayout|0_LinearLayout|0_FrameLayout|0_FrameLayout|0_FrameLayout|0_DrawerLayout|0_FrameLayout|0_FrameLayout|0_ViewGroup|1_ViewGroup|0_View/com.maltaisn.notes.sync:id/view_background
+    Bounds: [0,321][1080,2072]
+
+Transition 6:
+  From State: 2
+  To State: 3
+  Type: GUI_CLICK_BUTTON
+  Leaves App Core: false
+  Origin Node:
+    Resource ID: 
+    Name: node
+    Text: 
+    XPath: 0_FrameLayout|0_LinearLayout|0_FrameLayout|0_FrameLayout|0_FrameLayout|0_DrawerLayout|0_FrameLayout|0_FrameLayout|0_ViewGroup|0_LinearLayout|0_ViewGroup|2_LinearLayoutCompat|2_ImageView
+    Bounds: [969,167][1080,299]
+
+Transition 7:
+  From State: 3
+  To State: 2
+  Type: BUTTON_BACK
+  Leaves App Core: false
+
+Transition 8:
+  From State: 2
+  To State: 4
+  Type: GUI_CLICK_BUTTON
+  Leaves App Core: false
+  Origin Node:
+    Resource ID: com.maltaisn.notes.sync:id/item_move
+    Name: node
+    Text: 
+    XPath: 0_FrameLayout|0_LinearLayout|0_FrameLayout|0_FrameLayout|0_FrameLayout|0_DrawerLayout|0_FrameLayout|0_FrameLayout|0_ViewGroup|0_LinearLayout|0_ViewGroup|2_LinearLayoutCompat|1_Button/com.maltaisn.notes.sync:id/item_move
+    Bounds: [837,167][969,299]
+
+Transition 9:
+  From State: 4
+  To State: 1
+  Type: GUI_CLICK_BUTTON
+  Leaves App Core: false
+  Origin Node:
+    Resource ID: com.maltaisn.notes.sync:id/fab
+    Name: node
+    Text: 
+    XPath: 0_FrameLayout|0_LinearLayout|0_FrameLayout|0_FrameLayout|0_FrameLayout|0_DrawerLayout|0_FrameLayout|0_FrameLayout|0_ViewGroup|3_ImageButton/com.maltaisn.notes.sync:id/fab
+    Bounds: [882,1857][1036,2011]
+
+Transition 10:
+  From State: 1
+  To State: 5
+  Type: GUI_CLICK_BUTTON
+  Leaves App Core: false
+  Origin Node:
+    Resource ID: com.maltaisn.notes.sync:id/item_sort
+    Name: node
+    Text: 
+    XPath: 0_FrameLayout|0_LinearLayout|0_FrameLayout|0_FrameLayout|0_FrameLayout|0_DrawerLayout|0_FrameLayout|0_FrameLayout|0_ViewGroup|0_LinearLayout|0_ViewGroup|2_LinearLayoutCompat|2_Button/com.maltaisn.notes.sync:id/item_sort
+    Bounds: [948,167][1080,299]
+
+Transition 11:
+  From State: 5
+  To State: 1
+  Type: GUI_CLICK_BUTTON
+  Leaves App Core: false
+  Origin Node:
+    Resource ID: android:id/button1
+    Name: node
+    Text: OK
+    XPath: 0_FrameLayout|0_LinearLayout|0_FrameLayout|0_FrameLayout|0_FrameLayout|0_LinearLayoutCompat|2_ScrollView|0_LinearLayout|1_Button/android:id/button1
+    Bounds: [744,1518][920,1650]
+
+Transition 12:
+  From State: 1
+  To State: 1
+  Type: GUI_CLICK_BUTTON
+  Leaves App Core: false
+  Origin Node:
+    Resource ID: com.maltaisn.notes.sync:id/item_layout
+    Name: node
+    Text: 
+    XPath: 0_FrameLayout|0_LinearLayout|0_FrameLayout|0_FrameLayout|0_FrameLayout|0_DrawerLayout|0_FrameLayout|0_FrameLayout|0_ViewGroup|0_LinearLayout|0_ViewGroup|2_LinearLayoutCompat|1_Button/com.maltaisn.notes.sync:id/item_layout
+    Bounds: [816,167][948,299]
+
+Transition 13:
+  From State: 1
+  To State: 2
+  Type: GUI_CLICK_BUTTON
+  Leaves App Core: false
+  Origin Node:
+    Resource ID: com.maltaisn.notes.sync:id/item_search
+    Name: node
+    Text: 
+    XPath: 0_FrameLayout|0_LinearLayout|0_FrameLayout|0_FrameLayout|0_FrameLayout|0_DrawerLayout|0_FrameLayout|0_FrameLayout|0_ViewGroup|0_LinearLayout|0_ViewGroup|2_LinearLayoutCompat|0_Button/com.maltaisn.notes.sync:id/item_search
+    Bounds: [684,167][816,299]
+
+Transition 14:
+  From State: 2
+  To State: 1
+  Type: GUI_CLICK_BUTTON
+  Leaves App Core: false
+  Origin Node:
+    Resource ID: 
+    Name: node
+    Text: 
+    XPath: 0_FrameLayout|0_LinearLayout|0_FrameLayout|0_FrameLayout|0_FrameLayout|0_DrawerLayout|0_FrameLayout|0_FrameLayout|0_ViewGroup|0_LinearLayout|0_ViewGroup|0_ImageButton
+    Bounds: [0,156][154,310]
+
+Transition 15:
+  From State: 1
+  To State: 6
+  Type: GUI_CLICK_BUTTON
+  Leaves App Core: false
+  Origin Node:
+    Resource ID: 
+    Name: node
+    Text: 
+    XPath: 0_FrameLayout|0_LinearLayout|0_FrameLayout|0_FrameLayout|0_FrameLayout|0_DrawerLayout|0_FrameLayout|0_FrameLayout|0_ViewGroup|0_LinearLayout|0_ViewGroup|0_ImageButton
+    Bounds: [0,156][154,310]
+
+Transition 16:
+  From State: 6
+  To State: 7
+  Type: GUI_CLICK_BUTTON
+  Leaves App Core: false
+  Origin Node:
+    Resource ID: com.maltaisn.notes.sync:id/drawer_item_settings
+    Name: node
+    Text: 
+    XPath: 0_FrameLayout|0_LinearLayout|0_FrameLayout|0_FrameLayout|0_FrameLayout|0_DrawerLayout|1_FrameLayout|0_RecyclerView|9_LinearLayoutCompat/com.maltaisn.notes.sync:id/drawer_item_settings
+    Bounds: [0,1188][904,1320]
+
+Transition 17:
+  From State: 7
+  To State: 8
+  Type: GUI_CLICK_BUTTON
+  Leaves App Core: false
+  Origin Node:
+    Resource ID: 
+    Name: node
+    Text: 
+    XPath: 0_FrameLayout|0_LinearLayout|0_FrameLayout|0_FrameLayout|0_FrameLayout|0_DrawerLayout|0_FrameLayout|0_FrameLayout|0_ViewGroup|1_ViewGroup|0_FrameLayout|0_RecyclerView|8_FrameLayout
+    Bounds: [0,1895][1080,2072]
+
+Transition 18:
+  From State: 8
+  To State: 7
+  Type: BUTTON_BACK
+  Leaves App Core: false
+
+Transition 19:
+  From State: 7
+  To State: 9
+  Type: GUI_CLICK_BUTTON
+  Leaves App Core: false
+  Origin Node:
+    Resource ID: 
+    Name: node
+    Text: 
+    XPath: 0_FrameLayout|0_LinearLayout|0_FrameLayout|0_FrameLayout|0_FrameLayout|0_DrawerLayout|0_FrameLayout|0_FrameLayout|0_ViewGroup|1_ViewGroup|0_FrameLayout|0_RecyclerView|7_FrameLayout
+    Bounds: [0,1695][1080,1895]
+
+Transition 20:
+  From State: 9
+  To State: 7
+  Type: BUTTON_BACK
+  Leaves App Core: false
+
+Transition 21:
+  From State: 7
+  To State: 10
+  Type: GUI_CLICK_BUTTON
+  Leaves App Core: false
+  Origin Node:
+    Resource ID: 
+    Name: node
+    Text: 
+    XPath: 0_FrameLayout|0_LinearLayout|0_FrameLayout|0_FrameLayout|0_FrameLayout|0_DrawerLayout|0_FrameLayout|0_FrameLayout|0_ViewGroup|1_ViewGroup|0_FrameLayout|0_RecyclerView|5_LinearLayout
+    Bounds: [0,1244][1080,1554]
+
+Transition 22:
+  From State: 10
+  To State: 10
+  Type: GUI_CLICK_BUTTON
+  Leaves App Core: false
+  Origin Node:
+    Resource ID: 
+    Name: node
+    Text: 
+    XPath: 0_FrameLayout|0_LinearLayout|0_FrameLayout|0_FrameLayout|0_FrameLayout|0_DrawerLayout|0_FrameLayout|0_FrameLayout|0_ViewGroup|1_ViewGroup|0_FrameLayout|0_RecyclerView|2_LinearLayout
+    Bounds: [0,697][1080,932]
+
+Transition 23:
+  From State: 10
+  To State: 10
+  Type: GUI_CLICK_BUTTON
+  Leaves App Core: false
+  Origin Node:
+    Resource ID: 
+    Name: node
+    Text: 
+    XPath: 0_FrameLayout|0_LinearLayout|0_FrameLayout|0_FrameLayout|0_FrameLayout|0_DrawerLayout|0_FrameLayout|0_FrameLayout|0_ViewGroup|1_ViewGroup|0_FrameLayout|0_RecyclerView|1_LinearLayout
+    Bounds: [0,462][1080,697]
+
+Transition 24:
+  From State: 10
+  To State: 7
+  Type: GUI_CLICK_BUTTON
+  Leaves App Core: false
+  Origin Node:
+    Resource ID: 
+    Name: node
+    Text: 
+    XPath: 0_FrameLayout|0_LinearLayout|0_FrameLayout|0_FrameLayout|0_FrameLayout|0_DrawerLayout|0_FrameLayout|0_FrameLayout|0_ViewGroup|0_LinearLayout|0_ViewGroup|0_ImageButton
+    Bounds: [0,156][154,310]
+
+Transition 25:
+  From State: 7
+  To State: 11
+  Type: GUI_CLICK_BUTTON
+  Leaves App Core: false
+  Origin Node:
+    Resource ID: 
+    Name: node
+    Text: 
+    XPath: 0_FrameLayout|0_LinearLayout|0_FrameLayout|0_FrameLayout|0_FrameLayout|0_DrawerLayout|0_FrameLayout|0_FrameLayout|0_ViewGroup|1_ViewGroup|0_FrameLayout|0_RecyclerView|4_FrameLayout
+    Bounds: [0,1044][1080,1244]
+
+Transition 26:
+  From State: 11
+  To State: 7
+  Type: BUTTON_BACK
+  Leaves App Core: false
+
+Transition 27:
+  From State: 7
+  To State: 7
+  Type: GUI_CLICK_BUTTON
+  Leaves App Core: false
+  Origin Node:
+    Resource ID: 
+    Name: node
+    Text: 
+    XPath: 0_FrameLayout|0_LinearLayout|0_FrameLayout|0_FrameLayout|0_FrameLayout|0_DrawerLayout|0_FrameLayout|0_FrameLayout|0_ViewGroup|1_ViewGroup|0_FrameLayout|0_RecyclerView|3_LinearLayout
+    Bounds: [0,809][1080,1044]
+
+Transition 28:
+  From State: 7
+  To State: 7
+  Type: GUI_CLICK_BUTTON
+  Leaves App Core: false
+  Origin Node:
+    Resource ID: 
+    Name: node
+    Text: 
+    XPath: 0_FrameLayout|0_LinearLayout|0_FrameLayout|0_FrameLayout|0_FrameLayout|0_DrawerLayout|0_FrameLayout|0_FrameLayout|0_ViewGroup|1_ViewGroup|0_FrameLayout|0_RecyclerView|2_LinearLayout
+    Bounds: [0,662][1080,809]
+
+Transition 29:
+  From State: 7
+  To State: 12
+  Type: GUI_CLICK_BUTTON
+  Leaves App Core: false
+  Origin Node:
+    Resource ID: 
+    Name: node
+    Text: 
+    XPath: 0_FrameLayout|0_LinearLayout|0_FrameLayout|0_FrameLayout|0_FrameLayout|0_DrawerLayout|0_FrameLayout|0_FrameLayout|0_ViewGroup|1_ViewGroup|0_FrameLayout|0_RecyclerView|1_FrameLayout
+    Bounds: [0,462][1080,662]
+
+Transition 30:
+  From State: 12
+  To State: 7
+  Type: BUTTON_BACK
+  Leaves App Core: false
+
+Transition 31:
+  From State: 7
+  To State: 10
+  Type: SCROLL
+  Leaves App Core: false
+  Origin Node:
+    Resource ID: com.maltaisn.notes.sync:id/recycler_view
+    Name: node
+    Text: 
+    XPath: 0_FrameLayout|0_LinearLayout|0_FrameLayout|0_FrameLayout|0_FrameLayout|0_DrawerLayout|0_FrameLayout|0_FrameLayout|0_ViewGroup|1_ViewGroup|0_FrameLayout|0_RecyclerView/com.maltaisn.notes.sync:id/recycler_view
+    Bounds: [0,321][1080,2072]
+
+Transition 32:
+  From State: 10
+  To State: 7
+  Type: BUTTON_BACK
+  Leaves App Core: false
+
+Transition 33:
+  From State: 7
+  To State: 1
+  Type: GUI_CLICK_BUTTON
+  Leaves App Core: false
+  Origin Node:
+    Resource ID: 
+    Name: node
+    Text: 
+    XPath: 0_FrameLayout|0_LinearLayout|0_FrameLayout|0_FrameLayout|0_FrameLayout|0_DrawerLayout|0_FrameLayout|0_FrameLayout|0_ViewGroup|0_LinearLayout|0_ViewGroup|0_ImageButton
+    Bounds: [0,156][154,310]
+

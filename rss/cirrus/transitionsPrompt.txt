@@ -1,0 +1,6 @@
+Transition 1:
+  From State: 0
+  To State: 1
+  Type: FIRST_INTERACTION
+  Leaves App Core: false
+

@@ -1,0 +1,7 @@
+State 1:
+  Activity Name: com.neumorphic.calculator/com.neumorphic.calculator.MainActivity
+
+  Memory: 195904.0
+  CPU: 0.0
+  Domain Model: [{"field":"BLANK","name":"","type":"BUTTON"}]
+

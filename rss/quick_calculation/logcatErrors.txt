@@ -1,0 +1,4 @@
+--------- beginning of kernel
+--------- beginning of system
+--------- beginning of crash
+--------- beginning of main

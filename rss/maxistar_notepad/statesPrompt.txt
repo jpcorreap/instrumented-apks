@@ -1,0 +1,7 @@
+State 1:
+  Activity Name: com.maxistar.textpad/com.maxistar.textpad.activities.EditorActivity
+
+  Memory: 138736.0
+  CPU: 0.0
+  Domain Model: [{"field":"editText1","name":"com.maxistar.textpad:id\/editText1","type":"STRING"}]
+

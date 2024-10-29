@@ -1,0 +1,61 @@
+Transition 1:
+  From State: 0
+  To State: 1
+  Type: FIRST_INTERACTION
+  Leaves App Core: false
+
+Transition 2:
+  From State: 1
+  To State: 1
+  Type: GUI_INPUT_TEXT
+  Leaves App Core: false
+  Input String: 
+  Origin Node:
+    Resource ID: com.maxistar.textpad:id/editText1
+    Name: node
+    Text: Oes
+    XPath: 0_FrameLayout|0_LinearLayout|0_FrameLayout|0_ViewGroup|1_FrameLayout|0_ScrollView|0_EditText/com.maxistar.textpad:id/editText1
+    Bounds: [0,299][1080,2072]
+
+Transition 3:
+  From State: 1
+  To State: 1
+  Type: GUI_CLICK_BUTTON
+  Leaves App Core: false
+  Origin Node:
+    Resource ID: 
+    Name: node
+    Text: 
+    XPath: 0_FrameLayout|0_LinearLayout|0_FrameLayout|0_ViewGroup|0_FrameLayout|0_ViewGroup|1_LinearLayoutCompat|2_ImageView
+    Bounds: [969,156][1080,288]
+
+Transition 4:
+  From State: 1
+  To State: 1
+  Type: GUI_CLICK_BUTTON
+  Leaves App Core: false
+  Origin Node:
+    Resource ID: com.maxistar.textpad:id/action_edit
+    Name: node
+    Text: 
+    XPath: 0_FrameLayout|0_LinearLayout|0_FrameLayout|0_ViewGroup|0_FrameLayout|0_ViewGroup|1_LinearLayoutCompat|1_TextView/com.maxistar.textpad:id/action_edit
+    Bounds: [837,156][969,288]
+
+Transition 5:
+  From State: 1
+  To State: 1
+  Type: GUI_CLICK_BUTTON
+  Leaves App Core: false
+  Origin Node:
+    Resource ID: com.maxistar.textpad:id/menu_document_search
+    Name: node
+    Text: 
+    XPath: 0_FrameLayout|0_LinearLayout|0_FrameLayout|0_ViewGroup|0_FrameLayout|0_ViewGroup|1_LinearLayoutCompat|0_TextView/com.maxistar.textpad:id/menu_document_search
+    Bounds: [705,156][837,288]
+
+Transition 6:
+  From State: 1
+  To State: 1
+  Type: BUTTON_BACK
+  Leaves App Core: false
+

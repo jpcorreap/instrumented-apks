@@ -1,0 +1,7 @@
+State 1:
+  Activity Name: com.benarmstead.simplecooking/com.benarmstead.simplecooking.MainActivity
+
+  Memory: 209844.0
+  CPU: 0.0
+  Domain Model: []
+

@@ -1,0 +1,206 @@
+Transition 1:
+  From State: 0
+  To State: 1
+  Type: FIRST_INTERACTION
+  Leaves App Core: false
+  Screenshot: null
+
+Transition 2:
+  From State: 1
+  To State: 1
+  Type: GUI_CLICK_BUTTON
+  Leaves App Core: false
+  Screenshot: ./mileages/t1.png
+  Origin Node:
+    Resource ID: com.evancharlton.mileage:id/save_btn
+    Name: node
+    Text: Save Fillup
+    XPath: 0_FrameLayout|0_LinearLayout|0_FrameLayout|0_TabHost|0_LinearLayout|1_FrameLayout|0_FrameLayout|0_LinearLayout|0_FrameLayout|0_LinearLayout|1_Button/com.evancharlton.mileage:id/save_btn
+    Bounds: [0,1877][1080,2009]
+
+Transition 3:
+  From State: 1
+  To State: 1
+  Type: GUI_INPUT_TEXT
+  Leaves App Core: false
+  Screenshot: ./mileages/t2.png
+  Input String: 
+  Origin Node:
+    Resource ID: 
+    Name: node
+    Text: Comment
+    XPath: 0_FrameLayout|0_LinearLayout|0_FrameLayout|0_TabHost|0_LinearLayout|1_FrameLayout|0_FrameLayout|0_LinearLayout|0_FrameLayout|0_LinearLayout|0_ScrollView|0_LinearLayout|3_LinearLayout|1_EditText
+    Bounds: [0,783][1080,915]
+
+Transition 4:
+  From State: 1
+  To State: 1
+  Type: GUI_CLICK_BUTTON
+  Leaves App Core: false
+  Screenshot: ./mileages/t3.png
+  Origin Node:
+    Resource ID: com.evancharlton.mileage:id/partial
+    Name: node
+    Text: Tank was not filled to the top
+    XPath: 0_FrameLayout|0_LinearLayout|0_FrameLayout|0_TabHost|0_LinearLayout|1_FrameLayout|0_FrameLayout|0_LinearLayout|0_FrameLayout|0_LinearLayout|0_ScrollView|0_LinearLayout|2_CheckBox/com.evancharlton.mileage:id/partial
+    Bounds: [0,584][1080,716]
+
+Transition 5:
+  From State: 1
+  To State: 2
+  Type: GUI_CLICK_BUTTON
+  Leaves App Core: false
+  Screenshot: ./mileages/t4.png
+  Origin Node:
+    Resource ID: com.evancharlton.mileage:id/date
+    Name: node
+    Text: 10/28/24
+    XPath: 0_FrameLayout|0_LinearLayout|0_FrameLayout|0_TabHost|0_LinearLayout|1_FrameLayout|0_FrameLayout|0_LinearLayout|0_FrameLayout|0_LinearLayout|0_ScrollView|0_LinearLayout|1_TableLayout|1_TableRow|1_Button/com.evancharlton.mileage:id/date
+    Bounds: [540,456][1080,584]
+
+Transition 6:
+  From State: 2
+  To State: 1
+  Type: GUI_CLICK_BUTTON
+  Leaves App Core: false
+  Screenshot: ./mileages/t5.png
+  Origin Node:
+    Resource ID: android:id/button2
+    Name: node
+    Text: Cancel
+    XPath: 0_FrameLayout|0_FrameLayout|0_FrameLayout|0_LinearLayout|1_LinearLayout|0_LinearLayout|1_Button/android:id/button2
+    Bounds: [542,1176][976,1308]
+
+Transition 7:
+  From State: 1
+  To State: 1
+  Type: GUI_INPUT_TEXT
+  Leaves App Core: false
+  Screenshot: ./mileages/t6.png
+  Input String: 
+  Origin Node:
+    Resource ID: com.evancharlton.mileage:id/odometer
+    Name: node
+    Text: 12
+    XPath: 0_FrameLayout|0_LinearLayout|0_FrameLayout|0_TabHost|0_LinearLayout|1_FrameLayout|0_FrameLayout|0_LinearLayout|0_FrameLayout|0_LinearLayout|0_ScrollView|0_LinearLayout|1_TableLayout|1_TableRow|0_EditText/com.evancharlton.mileage:id/odometer
+    Bounds: [0,452][540,584]
+
+Transition 8:
+  From State: 1
+  To State: 1
+  Type: GUI_INPUT_TEXT
+  Leaves App Core: false
+  Screenshot: ./mileages/t7.png
+  Input String: 
+  Origin Node:
+    Resource ID: com.evancharlton.mileage:id/volume
+    Name: node
+    Text: 19
+    XPath: 0_FrameLayout|0_LinearLayout|0_FrameLayout|0_TabHost|0_LinearLayout|1_FrameLayout|0_FrameLayout|0_LinearLayout|0_FrameLayout|0_LinearLayout|0_ScrollView|0_LinearLayout|1_TableLayout|0_TableRow|1_EditText/com.evancharlton.mileage:id/volume
+    Bounds: [540,320][1080,452]
+
+Transition 9:
+  From State: 1
+  To State: 1
+  Type: GUI_INPUT_TEXT
+  Leaves App Core: false
+  Screenshot: ./mileages/t8.png
+  Input String: 
+  Origin Node:
+    Resource ID: com.evancharlton.mileage:id/price
+    Name: node
+    Text: 17
+    XPath: 0_FrameLayout|0_LinearLayout|0_FrameLayout|0_TabHost|0_LinearLayout|1_FrameLayout|0_FrameLayout|0_LinearLayout|0_FrameLayout|0_LinearLayout|0_ScrollView|0_LinearLayout|1_TableLayout|0_TableRow|0_EditText/com.evancharlton.mileage:id/price
+    Bounds: [0,320][540,452]
+
+Transition 10:
+  From State: 1
+  To State: 3
+  Type: GUI_CLICK_BUTTON
+  Leaves App Core: false
+  Screenshot: ./mileages/t9.png
+  Origin Node:
+    Resource ID: 
+    Name: node
+    Text: 
+    XPath: 0_FrameLayout|0_LinearLayout|0_FrameLayout|0_TabHost|0_LinearLayout|0_TabWidget|3_RelativeLayout
+    Bounds: [800,77][1080,253]
+
+Transition 11:
+  From State: 3
+  To State: 4
+  Type: GUI_CLICK_BUTTON
+  Leaves App Core: false
+  Screenshot: ./mileages/t10.png
+  Origin Node:
+    Resource ID: 
+    Name: node
+    Text: 
+    XPath: 0_FrameLayout|0_LinearLayout|0_FrameLayout|0_TabHost|0_LinearLayout|0_TabWidget|2_RelativeLayout
+    Bounds: [531,77][816,253]
+
+Transition 12:
+  From State: 4
+  To State: 3
+  Type: GUI_CLICK_BUTTON
+  Leaves App Core: false
+  Screenshot: ./mileages/t11.png
+  Origin Node:
+    Resource ID: 
+    Name: node
+    Text: 
+    XPath: 0_FrameLayout|0_LinearLayout|0_FrameLayout|0_TabHost|0_LinearLayout|0_TabWidget|3_RelativeLayout
+    Bounds: [800,77][1080,253]
+
+Transition 13:
+  From State: 3
+  To State: 3
+  Type: GUI_CLICK_BUTTON
+  Leaves App Core: false
+  Screenshot: ./mileages/t12.png
+  Origin Node:
+    Resource ID: 
+    Name: node
+    Text: 
+    XPath: 0_FrameLayout|0_LinearLayout|0_FrameLayout|0_TabHost|0_LinearLayout|0_TabWidget|1_RelativeLayout
+    Bounds: [263,77][547,253]
+
+Transition 14:
+  From State: 3
+  To State: 1
+  Type: GUI_CLICK_BUTTON
+  Leaves App Core: false
+  Screenshot: ./mileages/t13.png
+  Origin Node:
+    Resource ID: 
+    Name: node
+    Text: 
+    XPath: 0_FrameLayout|0_LinearLayout|0_FrameLayout|0_TabHost|0_LinearLayout|0_TabWidget|0_RelativeLayout
+    Bounds: [0,77][279,253]
+
+Transition 15:
+  From State: 1
+  To State: 4
+  Type: GUI_CLICK_BUTTON
+  Leaves App Core: false
+  Screenshot: ./mileages/t14.png
+  Origin Node:
+    Resource ID: 
+    Name: node
+    Text: 
+    XPath: 0_FrameLayout|0_LinearLayout|0_FrameLayout|0_TabHost|0_LinearLayout|0_TabWidget|2_RelativeLayout
+    Bounds: [531,77][816,253]
+
+Transition 16:
+  From State: 4
+  To State: 3
+  Type: GUI_CLICK_BUTTON
+  Leaves App Core: false
+  Screenshot: ./mileages/t15.png
+  Origin Node:
+    Resource ID: 
+    Name: node
+    Text: 
+    XPath: 0_FrameLayout|0_LinearLayout|0_FrameLayout|0_TabHost|0_LinearLayout|0_TabWidget|1_RelativeLayout
+    Bounds: [263,77][547,253]
+

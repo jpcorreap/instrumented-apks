@@ -1,0 +1,35 @@
+State 1:
+  Activity Name: io.github.subhamtyagi.quickcalculation/io.github.subhamtyagi.quickcalculation.LaunchActivity
+
+  Memory: 156828.0
+  CPU: 0.0
+  Domain Model: [{"field":"et_range1_lower","name":"io.github.subhamtyagi.quickcalculation:id\/et_range1_lower","type":"STRING"},{"field":"et_range1_upper","name":"io.github.subhamtyagi.quickcalculation:id\/et_range1_upper","type":"STRING"},{"field":"et_range2_lower","name":"io.github.subhamtyagi.quickcalculation:id\/et_range2_lower","type":"STRING"},{"field":"et_range2_upper","name":"io.github.subhamtyagi.quickcalculation:id\/et_range2_upper","type":"STRING"},{"field":"btn_start","name":"io.github.subhamtyagi.quickcalculation:id\/btn_start","type":"BUTTON"}]
+
+State 2:
+  Activity Name: io.github.subhamtyagi.quickcalculation/io.github.subhamtyagi.quickcalculation.QuizActivity
+
+  Memory: 164628.0
+  CPU: 0.0
+  Domain Model: [{"field":"button0","name":"io.github.subhamtyagi.quickcalculation:id\/button0","type":"BUTTON"},{"field":"button1","name":"io.github.subhamtyagi.quickcalculation:id\/button1","type":"BUTTON"},{"field":"button2","name":"io.github.subhamtyagi.quickcalculation:id\/button2","type":"BUTTON"},{"field":"button3","name":"io.github.subhamtyagi.quickcalculation:id\/button3","type":"BUTTON"},{"field":"btn_submit","name":"io.github.subhamtyagi.quickcalculation:id\/btn_submit","type":"BUTTON"}]
+
+State 3:
+  Activity Name: io.github.subhamtyagi.quickcalculation/io.github.subhamtyagi.quickcalculation.QuizActivity
+
+  Memory: 165336.0
+  CPU: 12.0
+  Domain Model: [{"field":"btn_play_again","name":"io.github.subhamtyagi.quickcalculation:id\/btn_play_again","type":"BUTTON"},{"field":"button0","name":"io.github.subhamtyagi.quickcalculation:id\/button0","type":"BUTTON"},{"field":"button1","name":"io.github.subhamtyagi.quickcalculation:id\/button1","type":"BUTTON"},{"field":"button2","name":"io.github.subhamtyagi.quickcalculation:id\/button2","type":"BUTTON"},{"field":"button3","name":"io.github.subhamtyagi.quickcalculation:id\/button3","type":"BUTTON"},{"field":"btn_submit","name":"io.github.subhamtyagi.quickcalculation:id\/btn_submit","type":"BUTTON"}]
+
+State 4:
+  Activity Name: PopupWindow:c13abd8
+
+  Memory: 171496.0
+  CPU: 7.4
+  Domain Model: []
+
+State 5:
+  Activity Name: PopupWindow:199e6aa
+
+  Memory: 172068.0
+  CPU: 4.7
+  Domain Model: []
+

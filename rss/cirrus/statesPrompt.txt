@@ -1,0 +1,7 @@
+State 1:
+  Activity Name: org.woheller69.omweather/org.woheller69.weather.firststart.TutorialActivity
+
+  Memory: 147100.0
+  CPU: 0.0
+  Domain Model: [{"field":"btn_next","name":"org.woheller69.omweather:id\/btn_next","type":"BUTTON"}]
+

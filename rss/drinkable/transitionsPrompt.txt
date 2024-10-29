@@ -1,0 +1,12 @@
+Transition 1:
+  From State: 0
+  To State: 1
+  Type: FIRST_INTERACTION
+  Leaves App Core: false
+
+Transition 2:
+  From State: 1
+  To State: 2
+  Type: BUTTON_BACK
+  Leaves App Core: false
+

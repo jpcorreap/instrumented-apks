@@ -1,0 +1,14 @@
+State 1:
+  Activity Name: com.moimob.drinkable/com.moimob.drinkable.MainActivity
+
+  Memory: 217948.0
+  CPU: 0.0
+  Domain Model: []
+
+State 2:
+  Activity Name: com.moimob.drinkable/com.moimob.drinkable.MainActivity
+
+  Memory: 218092.0
+  CPU: 0.0
+  Domain Model: []
+

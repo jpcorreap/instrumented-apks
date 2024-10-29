@@ -1,0 +1,24 @@
+Transition 1:
+  From State: 0
+  To State: 1
+  Type: FIRST_INTERACTION
+  Leaves App Core: false
+
+Transition 2:
+  From State: 1
+  To State: 1
+  Type: GUI_CLICK_BUTTON
+  Leaves App Core: false
+  Origin Node:
+    Resource ID: 
+    Name: node
+    Text: 
+    XPath: 0_FrameLayout|0_LinearLayout|0_FrameLayout|0_FrameLayout|0_FrameLayout|0_View|0_View|0_View|0_View|0_View|2_View
+    Bounds: [893,167][893,167]
+
+Transition 3:
+  From State: 1
+  To State: 1
+  Type: BUTTON_BACK
+  Leaves App Core: false
+

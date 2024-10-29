@@ -1,0 +1,21 @@
+State 1:
+  Activity Name: org.kde.bettercounter/org.kde.bettercounter.ui.MainActivity
+
+  Memory: 162780.0
+  CPU: 0.0
+  Domain Model: []
+
+State 2:
+  Activity Name: org.kde.bettercounter/org.kde.bettercounter.ui.MainActivity
+
+  Memory: 184784.0
+  CPU: 0.0
+  Domain Model: [{"field":"nameEdit","name":"org.kde.bettercounter:id\/nameEdit","type":"STRING"},{"field":"fakeSpinnerInterval","name":"org.kde.bettercounter:id\/fakeSpinnerInterval","type":"STRING"},{"field":"goalInput","name":"org.kde.bettercounter:id\/goalInput","type":"STRING"},{"field":"color","name":"org.kde.bettercounter:id\/color","type":"BUTTON"},{"field":"color","name":"org.kde.bettercounter:id\/color","type":"BUTTON"},{"field":"color","name":"org.kde.bettercounter:id\/color","type":"BUTTON"},{"field":"color","name":"org.kde.bettercounter:id\/color","type":"BUTTON"},{"field":"color","name":"org.kde.bettercounter:id\/color","type":"BUTTON"},{"field":"color","name":"org.kde.bettercounter:id\/color","type":"BUTTON"},{"field":"color","name":"org.kde.bettercounter:id\/color","type":"BUTTON"},{"field":"button2","name":"android:id\/button2","type":"BUTTON"},{"field":"button1","name":"android:id\/button1","type":"BUTTON"}]
+
+State 3:
+  Activity Name: PopupWindow:b0a93b6
+
+  Memory: 188568.0
+  CPU: 24.0
+  Domain Model: []
+

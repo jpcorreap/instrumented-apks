@@ -1,0 +1,48 @@
+Transition 1:
+  From State: 0
+  To State: 1
+  Type: FIRST_INTERACTION
+  Leaves App Core: false
+
+Transition 2:
+  From State: 1
+  To State: 2
+  Type: GUI_CLICK_BUTTON
+  Leaves App Core: false
+  Origin Node:
+    Resource ID: org.kde.bettercounter:id/fab
+    Name: node
+    Text: 
+    XPath: 0_FrameLayout|0_LinearLayout|0_FrameLayout|0_LinearLayout|0_FrameLayout|0_ScrollView|2_ImageButton/org.kde.bettercounter:id/fab
+    Bounds: [860,1988][1014,2072]
+
+Transition 3:
+  From State: 2
+  To State: 1
+  Type: GUI_CLICK_BUTTON
+  Leaves App Core: false
+  Origin Node:
+    Resource ID: android:id/button2
+    Name: node
+    Text: Cancel
+    XPath: 0_FrameLayout|0_LinearLayout|0_FrameLayout|0_FrameLayout|0_FrameLayout|0_LinearLayoutCompat|2_ScrollView|0_LinearLayout|0_Button/android:id/button2
+    Bounds: [535,1450][722,1582]
+
+Transition 4:
+  From State: 1
+  To State: 3
+  Type: GUI_CLICK_BUTTON
+  Leaves App Core: false
+  Origin Node:
+    Resource ID: 
+    Name: node
+    Text: 
+    XPath: 0_FrameLayout|0_LinearLayout|0_FrameLayout|0_LinearLayout|0_FrameLayout|0_ScrollView|0_LinearLayout|0_ViewGroup|1_LinearLayoutCompat|0_ImageView
+    Bounds: [969,167][1080,299]
+
+Transition 5:
+  From State: 3
+  To State: 1
+  Type: BUTTON_BACK
+  Leaves App Core: false
+

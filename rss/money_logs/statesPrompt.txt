@@ -1,0 +1,21 @@
+State 1:
+  Activity Name: com.kazispin.money_logs/com.kazispin.money_logs.MainActivity
+
+  Memory: 229564.0
+  CPU: 0.0
+  Domain Model: []
+
+State 2:
+  Activity Name: com.kazispin.money_logs/com.kazispin.money_logs.MainActivity
+
+  Memory: 231656.0
+  CPU: 37.0
+  Domain Model: [{"field":"BLANK","name":"","type":"BUTTON"},{"field":"BLANK","name":"","type":"BUTTON"}]
+
+State 3:
+  Activity Name: com.kazispin.money_logs/com.kazispin.money_logs.MainActivity
+
+  Memory: 236692.0
+  CPU: 37.0
+  Domain Model: [{"field":"BLANK","name":"","type":"BUTTON"},{"field":"BLANK","name":"","type":"BUTTON"}]
+
